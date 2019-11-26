@@ -154,16 +154,22 @@ Buildings
 		cost:1400000000000 atoms
 		unlocked
 		
-	//*hair
-		//name:Hair
+	*hair
+		name:Hair
+		desc:Produces 430000000 atoms per second.
+		//icon:icons[3,1]
+		on tick:yield 430000000 atoms
+		cost:17000000000000 atoms
+		unlocked
 		
-		
-	//*coffeebean
-		//name:Coffee bean
-		
-		
+	*coffeebean
+		name:Coffee bean
+		desc:Produces 2900000000 atoms per second.
+		//icon:icons[2,3]
+		on tick:yield 2900000000 atoms
+		cost:210000000000000 atoms
+		unlocked
 	
-
 Upgrades
     *betterFoams1
         name:Better Quantum foams
