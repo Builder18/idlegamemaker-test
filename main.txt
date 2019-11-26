@@ -58,12 +58,12 @@ Buttons
 Buildings
 	*foam
 		name:Quantum foam
-		desc:Produces 0.1 atom per second.
+		desc:Produces 1.4 atom per second.
 		icon:icons[0,0]
 		on tick:
-			yield 0.1 atom
+			yield 1.4 atom
 		end
-		cost:15 atoms
+		cost:9 atoms
 		unlocked
 
 	*neutrino
