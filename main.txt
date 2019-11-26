@@ -67,7 +67,7 @@ Buildings
 		unlocked
 
 	*neutrino
-		name:  Neutrino   
+		name:     Neutrino   
 		desc:Produces 1 atoms per second.
 		icon:icons[1,0]
 		on tick:yield 1 atoms
@@ -75,7 +75,7 @@ Buildings
 		unlocked
 
 	*preon
-		name:   Preon
+		name:     Preon
 		desc:Produces 8 atoms per second.
 		//icon:icons[1,1]
 		on tick:yield 8 atoms
@@ -91,7 +91,7 @@ Buildings
 		unlocked
 
 	*proton
-		name:   Proton    
+		name:      Proton    
 		desc:Produces 260 atoms per second.
 		icon:icons[2,0]
 		on tick:yield 260 atoms
