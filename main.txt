@@ -1,0 +1,280 @@
+Let's make a game!  
+   name:Rebuild the cookies
+   by:builder17
+   desc:This is an Idle Game Maker experiment, you can learn more about IGM in here: https://orteil.dashnet.org/igm/
+   created:21/11/2019
+   updated:24/11/2019
+   version:1
+ 
+Settings
+    building cost increase:120%
+    building cost refund:25%
+    stylesheet:stuff/bigBlue.css
+    spritesheet:icons, 48 by 48, https://i.postimg.cc/43GKt9Tv/atomsheet.png
+ 
+Layout
+      use default
+ 
+Resources
+	*atom|atoms
+		name:Atoms
+		class:noBackground
+		show earned
+
+	*hiddenBoost
+		name:Hidden boost
+		class:noBackground
+		on earn:
+			multiply yield of foam by 2
+			multiply yield of neutrino by 2
+			multiply yield of preon by 2
+			multiply yield of electroncore by 2
+			multiply yield of proton by 2
+			multiply yield of nucleus by 2
+			multiply yield of gammaray by 2
+			multiply yield of angstrom by 2
+			multiply yield of carbonnanotube by 2
+			multiply yield of cellmembrane by 2
+		end
+		on tick:yield 1 timer
+		//hidden
+
+	*timer
+		name:Timer
+		on tick:
+			if (this>30)
+				hiddenBoost is hiddenBoost-1
+				this is 0
+			end
+			if (hiddenBoost<1) this is 0
+		end
+		hidden
+		
+Buttons
+	*clickme
+		name:Make an atom
+		on click:yield 1 atom
+
+Buildings
+	*foam
+		name:Quantum foam
+		desc:Produces 0.1 atom per second.
+		icon:icons[0,0]
+		on tick:
+			yield 0.1 atom
+		end
+		cost:15 atoms
+		unlocked
+
+	*neutrino
+		name:  Neutrino   
+		desc:Produces 1 atoms per second.
+		icon:icons[1,0]
+		on tick:yield 1 atoms
+		cost:100 atoms
+		unlocked
+
+	*preon
+		name:   Preon
+		desc:Produces 8 atoms per second.
+		//icon:icons[1,1]
+		on tick:yield 8 atoms
+		cost:1100 atoms
+		unlocked
+
+	*electroncore
+		name:Electron core
+		desc:Produces 47 atoms per second.
+		//icon:icons[0,1]
+		on tick:yield 47 atoms
+		cost:12000 atoms
+		unlocked
+
+	*proton
+		name:   Proton    
+		desc:Produces 260 atoms per second.
+		icon:icons[2,0]
+		on tick:yield 260 atoms
+		cost:130000 atoms
+		unlocked
+
+	*nucleus
+		name:Uranium nucleus
+		desc:Produces 1400 atoms per second.
+		icon:icons[1,2]
+		on tick:yield 1400 atoms
+		cost:1400000 atoms
+		unlocked
+
+	*gammaray
+		name:Gamma ray   
+		desc:Produces 7800 atoms per second.
+		icon:icons[2,1]
+		on tick:yield 7800 atoms
+		cost:20000000 atoms
+		unlocked
+
+	*angstrom
+		name:Angstrom
+		desc:Produces 44000 atoms per second.
+		//icon:icons[2,2]
+		on tick:yield 44000 atoms
+		cost:330000000 atoms
+		unlocked
+
+	*carbonnanotube
+		name:Carbon nanotube
+		desc:Produces 260000 atoms per second.
+		icon:icons[0,2]
+		on tick:yield 260000 atoms
+		cost:5100000000 atoms
+		unlocked
+
+	*cellmembrane
+		name:Cell membrane
+		desc:Produces 1600000 atoms per second.
+		//icon:icons[0,3]
+		on tick:yield 1600000 atoms
+		cost:75000000000 atoms
+		unlocked
+		
+	*largestvirus
+		name:Largest virus
+		desc:Produces 10000000 atoms per second.
+		//icon:icons[3,0]
+		on tick:yield 10000000 atoms
+		cost:100000000000 atoms
+		unlocked
+		
+	*whitebloodcell
+		name:White blood cell
+		desc:Produces 65000000 atoms per second.
+		//icon:icons[1,3]
+		on tick:yield 65000000 atoms
+		cost:1400000000000 atoms
+		unlocked
+		
+	//*hair
+		//name:Hair
+		
+		
+	//*coffeebean
+		//name:Coffee bean
+		
+		
+	
+
+Upgrades
+    *betterFoams1
+        name:Better Quantum foams
+		desc:Doubles quantum foam power. Even light becomes matter for you!
+        passive:multiply yield of foam by 2
+        cost:50 atoms
+        unlocked
+
+	*betterNeutrinos1
+		name:Better neutrinos
+		desc:Doubles neutrino power. Now we have more knowledge about neutrinos!
+		passive:multiply yield of neutrino by 2
+		cost:400 atoms
+		unlocked
+
+	*betterPreons1
+		name:Better preons
+		desc:Doubles preon power. These preon models have so much information in them!
+		passive:multiply yield of preon by 2
+		cost:1500 atoms
+		unlocked
+
+	*betterElectroncores1
+		name:Better electron cores
+		desc:Doubles electron core power. Accelerated electron cores are much more efficient!
+		passive:multiply yield of electroncore by 2
+		cost:25000 atoms
+		unlocked
+
+	*betterProtons1
+		name:Better protons
+		desc:Triples proton power. When protons spin faster, they seem to make more atoms!
+		passive:multiply yield of proton by 3
+		cost:500000 atoms
+		unlocked
+
+	*betterNucleus1
+		name:Better uranium nucleus'
+		desc:Triples uranium nucleus power. Breaking uranium apart gives us so much atoms!
+		passive:multiply yield of nucleus by 3
+		cost:6000000 atoms
+		unlocked
+
+	*betterGammaray1
+		name:Better gamma rays
+		desc:Triples gamma ray power. Now our rays have more energy in them!
+		passive:multiply yield of gammaray by 3
+		cost:70000000 atoms
+		unlocked
+
+	*betterAngstrom1
+		name:Better angstroms
+		desc:Triples angstrom power. We founded an laboratory to learn about angstroms!
+		passive:multiply yield of angstrom by 3
+		cost:800000000 atoms
+		unlocked
+
+	*betterCarbontube1
+		name:Better carbon nanotubes
+		desc:Triples carbon nanotube power. Nanotubes are budding, this makes them more effective!
+		passive:multiply yield of carbonnanotube by 3
+		cost:9000000000 atoms
+		unlocked
+
+	*betterCellmembrane1
+		name:Better cell membranes
+		desc:Triples cell membrane power. Feed them proteins!
+		passive:multiply yield of cellmembrane by 3
+		cost:200000000000 atoms
+		unlocked
+
+	*betterClicking1
+		name:Button upgrade 1
+		desc:Make an atom too slow? This upgrade helps!
+		passive:increase yield of clickme by 1
+		cost:10 atoms
+		unlocked
+
+	*betterClicking2
+		name:Button upgrade 2
+		desc:Make an atom faster? Cheap upgrade for you!
+		passive:increase yield of clickme by 3
+		cost:150 atoms
+		unlocked
+
+	*betterClicking3
+		name:Button upgrade 3
+		desc:Who knows, maybe this upgrade helps you to make atoms sightly faster...
+		passive:multiply yield of clickme by 2
+		cost:500 atoms
+		unlocked
+
+	*betterClicking4
+		name:Button upgrade 4
+		desc:Want to make atoms even faster? Get this!
+		passive:multiply yield of clickme by 10
+		cost:2000 atoms
+		unlocked
+
+	*betterClicking5
+		name:Button upgrade 5
+		desc:Make an atom fastest to get? Totally best button you can get!
+		passive:multiply yield of clickme by 100
+		cost:800000 atoms
+		unlocked
+
+Shinies
+	*goldenAtom
+		name:Golden atom
+		on click:yield hiddenBoost
+		movement:onTop moveBottom bobHorizontal
+		frequency:30
+		frequency variation:90
+		unlocked
