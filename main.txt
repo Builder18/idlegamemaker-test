@@ -275,6 +275,27 @@ Upgrades
 		passive:multiply yield of clickme by 100
 		cost:800000 atoms
 		unlocked
+		
+Achievements
+	*ach1
+		name:10 quantum foams
+		req:10 foam
+		
+	*ach2
+		name:10 neutrinos
+		req:10 neutrino
+		
+	*ach3
+		name:10 preons
+		req:10 preon
+		
+	*ach4
+		name:10 electron cores
+		req:10 electroncore
+		
+	*ach5
+		name:10 protons
+		req:10 proton
 
 Shinies
 	*goldenAtom
