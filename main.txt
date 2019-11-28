@@ -10,7 +10,7 @@ Settings
     building cost increase:120%
     building cost refund:25%
     stylesheet:stuff/bigBlue.css
-    spritesheet:icons, 48 by 48, https://i.postimg.cc/43GKt9Tv/atomsheet.png
+    spritesheet:icons, 48 by 48, https://i.postimg.cc/Hs8m9TqF/atomsheet-V2.png
  
 Layout
       use default
@@ -77,7 +77,7 @@ Buildings
 	*preon
 		name:     Preon
 		desc:Produces 8 atoms per second.
-		//icon:icons[1,1]
+		icon:icons[1,1]
 		on tick:yield 8 atoms
 		cost:1100 atoms
 		unlocked
@@ -85,7 +85,7 @@ Buildings
 	*electroncore
 		name:Electron core
 		desc:Produces 47 atoms per second.
-		//icon:icons[0,1]
+		icon:icons[0,1]
 		on tick:yield 47 atoms
 		cost:12000 atoms
 		unlocked
@@ -117,7 +117,7 @@ Buildings
 	*angstrom
 		name:Angstrom
 		desc:Produces 44000 atoms per second.
-		//icon:icons[2,2]
+		icon:icons[2,2]
 		on tick:yield 44000 atoms
 		cost:330000000 atoms
 		unlocked
@@ -133,7 +133,7 @@ Buildings
 	*cellmembrane
 		name:Cell membrane
 		desc:Produces 1600000 atoms per second.
-		//icon:icons[0,3]
+		icon:icons[0,3]
 		on tick:yield 1600000 atoms
 		cost:75000000000 atoms
 		unlocked
@@ -141,7 +141,7 @@ Buildings
 	*largestvirus
 		name:Largest virus
 		desc:Produces 10000000 atoms per second.
-		//icon:icons[3,0]
+		icon:icons[3,0]
 		on tick:yield 10000000 atoms
 		cost:100000000000 atoms
 		unlocked
