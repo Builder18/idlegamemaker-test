@@ -188,9 +188,9 @@ Buildings
 		
 	*earthworm
 		name:Giant earthworm
-		desc:Produces 150000000000 atoms per second.
-		on tick:yield 150000000000 atoms
-		cost:31000000000000000 atoms
+		desc:Produces 1100000000000 atoms per second.
+		on tick:yield 1100000000000 atoms
+		cost:7100000000000000000 atoms
 		unlocked
 	
 Upgrades
