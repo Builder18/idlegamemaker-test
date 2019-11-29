@@ -169,14 +169,30 @@ Buildings
 		on tick:yield 2900000000 atoms
 		cost:210000000000000 atoms
 		unlocked
+		
+	*cup
+		name:Cup
+		desc:Produces 21000000000 atoms per second.
+		//icon:icons[3,2]
+		on tick:yield 21000000000 atoms
+		cost:2600000000000000 atoms
+		unlocked
+		
+	*human
+		name:Human
+		desc:Produces 150000000000 atoms per second.
+		//icon:icons[3,3]
+		on tick:yield 150000000000 atoms
+		cost:31000000000000000 atoms
+		unlocked
 	
 Upgrades
-    *betterFoams1
-        name:Better Quantum foams
+    	*betterFoams1
+        	name:Better Quantum foams
 		desc:Doubles quantum foam power. Even light becomes matter for you!
-        passive:multiply yield of foam by 2
-        cost:50 atoms
-        unlocked
+        	passive:multiply yield of foam by 2
+        	cost:50 atoms
+        	unlocked
 
 	*betterNeutrinos1
 		name:Better neutrinos
@@ -296,6 +312,10 @@ Achievements
 	*ach5
 		name:10 protons
 		req:10 proton
+		
+	*ach6
+		name:10 Uranium nucleuses
+		req:10 nucleus
 
 Shinies
 	*goldenAtom
@@ -303,5 +323,5 @@ Shinies
 		on click:yield hiddenBoost
 		movement:onTop moveBottom bobHorizontal
 		frequency:30
-		frequency variation:90
+		frequency variation:60
 		unlocked
