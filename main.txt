@@ -185,6 +185,13 @@ Buildings
 		on tick:yield 150000000000 atoms
 		cost:31000000000000000 atoms
 		unlocked
+		
+	*earthworm
+		name:Giant earthworm
+		desc:Produces 150000000000 atoms per second.
+		on tick:yield 150000000000 atoms
+		cost:31000000000000000 atoms
+		unlocked
 	
 Upgrades
     	*betterFoams1
