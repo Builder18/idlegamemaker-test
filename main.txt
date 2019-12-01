@@ -24,19 +24,21 @@ Resources
 	*hiddenBoost
 		name:Hidden boost
 		class:noBackground
-		on earn:
-			multiply yield of foam by 2
-			multiply yield of neutrino by 2
-			multiply yield of preon by 2
-			multiply yield of electroncore by 2
-			multiply yield of proton by 2
-			multiply yield of nucleus by 2
-			multiply yield of gammaray by 2
-			multiply yield of angstrom by 2
-			multiply yield of carbonnanotube by 2
-			multiply yield of cellmembrane by 2
+		on tick:
+			if (this>0)
+				multiply yield of foam by 2
+				multiply yield of neutrino by 2
+				multiply yield of preon by 2
+				multiply yield of electroncore by 2
+				multiply yield of proton by 2
+				multiply yield of nucleus by 2
+				multiply yield of gammaray by 2
+				multiply yield of angstrom by 2
+				multiply yield of carbonnanotube by 2
+				multiply yield of cellmembrane by 2
+				yield 1 timer
+			end
 		end
-		on tick:yield 1 timer
 		//hidden
 
 	*timer
@@ -96,7 +98,7 @@ Buildings
 		icon:icons[2,0]
 		on tick:yield 260 atoms
 		cost:130000 atoms
-		unlocked
+		req:1 preon
 
 	*nucleus
 		name:Uranium nucleus
@@ -104,7 +106,7 @@ Buildings
 		icon:icons[1,2]
 		on tick:yield 1400 atoms
 		cost:1400000 atoms
-		unlocked
+		req:1 electroncore
 
 	*gammaray
 		name:Gamma ray   
@@ -112,7 +114,7 @@ Buildings
 		icon:icons[2,1]
 		on tick:yield 7800 atoms
 		cost:20000000 atoms
-		unlocked
+		req:1 proton
 
 	*angstrom
 		name:Angstrom
@@ -120,7 +122,7 @@ Buildings
 		icon:icons[2,2]
 		on tick:yield 44000 atoms
 		cost:330000000 atoms
-		unlocked
+		req:1 nucleus
 
 	*carbonnanotube
 		name:Carbon nanotube
@@ -128,7 +130,7 @@ Buildings
 		icon:icons[0,2]
 		on tick:yield 260000 atoms
 		cost:5100000000 atoms
-		unlocked
+		req:1 gammaray
 
 	*cellmembrane
 		name:Cell membrane
@@ -136,7 +138,7 @@ Buildings
 		icon:icons[0,3]
 		on tick:yield 1600000 atoms
 		cost:75000000000 atoms
-		unlocked
+		req:1 angstrom
 		
 	*largestvirus
 		name:Largest virus
@@ -144,6 +146,12 @@ Buildings
 		icon:icons[3,0]
 		on tick:yield 10000000 atoms
 		cost:100000000000 atoms
+		req:1 carbonnanotube
+
+	*lategamepreview
+		name:Preview under this
+		desc:Buildings under this text are preview for late-game.
+		no buy
 		unlocked
 		
 	*whitebloodcell
@@ -196,7 +204,7 @@ Buildings
 Upgrades
     	*betterFoams1
         	name:Better Quantum foams
-		desc:Doubles quantum foam power. Even light becomes matter for you!
+			desc:Doubles quantum foam power. Even light becomes matter for you!
         	passive:multiply yield of foam by 2
         	cost:50 atoms
         	req:1 foam
@@ -321,14 +329,30 @@ Achievements
 		req:10 proton
 		
 	*ach6
-		name:10 Uranium nucleuses
+		name:10 uranium nucleuses
 		req:10 nucleus
+
+	*ach7
+		name:10 gamma rays
+		req:10 gammaray
+
+	*ach8
+		name:10 angstroms
+		req:10 angstrom
+
+	*ach9
+		name:10 carbon nanotubes
+		req:10 carbonnanotube
+
+	*ach10
+		name:10 cell membranes
+		req:10 cellmembrane
 
 Shinies
 	*goldenAtom
 		name:Golden atom
 		on click:yield hiddenBoost
 		movement:onTop moveBottom bobHorizontal
-		frequency:30
+		frequency:60
 		frequency variation:60
 		unlocked
