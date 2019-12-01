@@ -199,70 +199,70 @@ Upgrades
 		desc:Doubles quantum foam power. Even light becomes matter for you!
         	passive:multiply yield of foam by 2
         	cost:50 atoms
-        	unlocked
+        	req:1 foam
 
 	*betterNeutrinos1
 		name:Better neutrinos
 		desc:Doubles neutrino power. Now we have more knowledge about neutrinos!
 		passive:multiply yield of neutrino by 2
 		cost:400 atoms
-		unlocked
+		req:1 neutrino
 
 	*betterPreons1
 		name:Better preons
 		desc:Doubles preon power. These preon models have so much information in them!
 		passive:multiply yield of preon by 2
 		cost:1500 atoms
-		unlocked
+		req:1 preon
 
 	*betterElectroncores1
 		name:Better electron cores
 		desc:Doubles electron core power. Accelerated electron cores are much more efficient!
 		passive:multiply yield of electroncore by 2
 		cost:25000 atoms
-		unlocked
+		req:1 electroncore
 
 	*betterProtons1
 		name:Better protons
 		desc:Triples proton power. When protons spin faster, they seem to make more atoms!
 		passive:multiply yield of proton by 3
 		cost:500000 atoms
-		unlocked
+		req:1 proton
 
 	*betterNucleus1
 		name:Better uranium nucleus'
 		desc:Triples uranium nucleus power. Breaking uranium apart gives us so much atoms!
 		passive:multiply yield of nucleus by 3
 		cost:6000000 atoms
-		unlocked
+		req:1 nucleus
 
 	*betterGammaray1
 		name:Better gamma rays
 		desc:Triples gamma ray power. Now our rays have more energy in them!
 		passive:multiply yield of gammaray by 3
 		cost:70000000 atoms
-		unlocked
+		req:1 gammaray
 
 	*betterAngstrom1
 		name:Better angstroms
 		desc:Triples angstrom power. We founded an laboratory to learn about angstroms!
 		passive:multiply yield of angstrom by 3
 		cost:800000000 atoms
-		unlocked
+		req:1 angstrom
 
 	*betterCarbontube1
 		name:Better carbon nanotubes
 		desc:Triples carbon nanotube power. Nanotubes are budding, this makes them more effective!
 		passive:multiply yield of carbonnanotube by 3
 		cost:9000000000 atoms
-		unlocked
+		req:1 carbonnanotube
 
 	*betterCellmembrane1
 		name:Better cell membranes
 		desc:Triples cell membrane power. Feed them proteins!
 		passive:multiply yield of cellmembrane by 3
 		cost:200000000000 atoms
-		unlocked
+		req:1 cellmembrane
 
 	*betterClicking1
 		name:Button upgrade 1
@@ -290,14 +290,14 @@ Upgrades
 		desc:Want to make atoms even faster? Get this!
 		passive:multiply yield of clickme by 10
 		cost:2000 atoms
-		unlocked
+		req:have betterClicking3
 
 	*betterClicking5
 		name:Button upgrade 5
 		desc:Make an atom fastest to get? Totally best button you can get!
 		passive:multiply yield of clickme by 100
 		cost:800000 atoms
-		unlocked
+		req:have betterClicking4
 		
 Achievements
 	*ach1
