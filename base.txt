@@ -24,11 +24,11 @@ Earth Cost: 52 Nonillion ApS is 2.1 Sextillion
 
 Uranus Cost: 619 Nonillion ApS is 15 Sextillion
 
-Jupiter 
+Jupiter Cost: 7.4 Decillion ApS is 105 Sextillion
 
-Proxima Centauri, 
+Proxima Centauri, Cost: 89 Decillion ApS is 735 Sextillion
 
-Alpha Centauri B, 
+Alpha Centauri B, Cost: 1 Undecillion ApS is 5.1 Septillion
 
 Sun, 
 
@@ -76,23 +76,23 @@ Great orion Nebula,
 
 Solar neighborhood, 
 
-omega centauri, 
+Omega centauri, 
 
 M54 Globular cluster, 
 
 Tarantula nebula, 
 
-sagittarius dwarf Galaxy, 
+Sagittarius dwarf Galaxy, 
 
-small magellanic cloud, 
+Small magellanic cloud, 
 
 Large Magellanic Cloud, 
 
-ngc 7714, 
+NGC 7714, 
 
-triangulum galaxy, 
+Triangulum galaxy, 
 
-black eye galaxy, 
+Black eye galaxy, 
 
 Milky Way galaxy, 
 
@@ -106,9 +106,9 @@ NGC 4889,
 
 Galactic group, 
 
-ic 1101, 
+IC 1101, 
 
-virgo galactic group, 
+Virgo galactic group, 
 
 Galactic supercluster, 
 
