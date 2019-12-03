@@ -12,7 +12,7 @@ Angel falls Cost: 18 Septillion ApS is 18 Quadrillion
 
 Mt Everest Cost: 212 Septillion ApS is 126 Quadrillion
 
-Ganymed 
+Ganymed Cost: 212 Septillion ApS is 126 Quadrillion
 
 Nereid 
 
@@ -22,5 +22,95 @@ Mars
 
 Earth 
 
-Uranus
+Uranus 
+
+Jupiter 
+
+Proxima Centauri, 
+
+Alpha Centauri B, 
+
+Sun, 
+
+Sirius A, 
+
+Regulus, 
+
+Pollux, 
+
+Arcturus, 
+
+Aldebaran, 
+
+Rigel, 
+
+Gacrux, 
+
+Deneb, 
+
+Pistol Star, 
+
+V382 Carinae, 
+
+UY Scuti, 
+
+Kuiper Belt, 
+
+Homunculus Nebula,  
+
+Stingray Nebula, 
+
+Oort Cloud, 
+
+Cat's eye nebula,  
+
+Ring nebula, 
+
+Helix Nebula,  
+
+Crab Nebula, 
+
+Pillas Of Creation, 
+
+Great orion Nebula, 
+
+Solar neighborhood, 
+
+omega centauri, 
+
+M54 Globular cluster, 
+
+Tarantula nebula, 
+
+sagittarius dwarf Galaxy, 
+
+small magellanic cloud, 
+
+Large Magellanic Cloud, 
+
+ngc 7714, 
+
+triangulum galaxy, 
+
+black eye galaxy, 
+
+Milky Way galaxy, 
+
+Andromeda galaxy, 
+
+NGC 1232, 
+
+Virgo A, 
+
+NGC 4889, 
+
+Galactic group, 
+
+ic 1101, 
+
+virgo galactic group, 
+
+Galactic supercluster, 
+
+entire universe 
 
