@@ -70,9 +70,9 @@ Buildings
 
 	*neutrino
 		name:     Neutrino   
-		desc:Produces 1 atoms per second.
+		desc:Produces 3 atoms per second.
 		icon:icons[1,0]
-		on tick:yield 1 atoms
+		on tick:yield 3 atoms
 		cost:100 atoms
 		unlocked
 
@@ -199,6 +199,20 @@ Buildings
 		desc:Produces 1100000000000 atoms per second.
 		on tick:yield 1100000000000 atoms
 		cost:7100000000000000000 atoms
+		unlocked
+
+	*oaktree
+		name:Oak tree
+		desc:Produces 7700000000000 atoms per second.
+		on tick:yield 7700000000000 atoms
+		cost:85200000000000000000 atoms
+		unlocked
+
+	*redwoodtree
+		name:Redwood tree
+		desc:Produces 53900000000000 atoms per second.
+		on tick:yield 53900000000000 atoms
+		cost:1003000000000000000000 atoms
 		unlocked
 	
 Upgrades
@@ -351,7 +365,7 @@ Achievements
 Shinies
 	*goldenAtom
 		name:Golden atom
-		on click:yield hiddenBoost
+		on click:yield 2 hiddenBoost
 		movement:onTop moveBottom bobHorizontal
 		frequency:60
 		frequency variation:60
