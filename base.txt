@@ -30,19 +30,19 @@ Proxima Centauri Cost: 89 Decillion ApS is 735 Sextillion
 
 Alpha Centauri B Cost: 1 Undecillion ApS is 5.1 Septillion
 
-Sun 
+Sun Cost: 12 Undecillion ApS is 35 Septillion
 
-Sirius A 
+Sirius A Cost: 144 Undecillion ApS is 245 Septillion
 
-Regulus 
+Regulus Cost: 1.7 Duodecillion ApS is 1.7 Octillion
 
-Pollux 
+Pollux Cost: 20 Duodecillion ApS is 12 Octillion
 
-Arcturus 
+Arcturus Cost: 240 Duodecillion ApS is 84 Octillion
 
-Aldebaran 
+Aldebaran Cost: 2.9 Tredecillion ApS is 588 Octillion
 
-Rigel 
+Rigel Cost: 35 Tredecillion ApS is 4.1 Nonillion
 
 Gacrux 
 
