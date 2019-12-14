@@ -212,7 +212,56 @@ Buildings
 		name:Redwood tree
 		desc:Produces 53900000000000 atoms per second.
 		on tick:yield 53900000000000 atoms
-		cost:1003000000000000000000 atoms
+		cost:1030000000000000000000 atoms
+		unlocked
+
+	*hooverdam
+		name:Hoover Dam
+		desc:Produces 377000000000000 atoms per second.
+		on tick:yield 377000000000000 atoms
+		cost:12300000000000000000000 atoms
+		unlocked
+
+	*eiffeltower
+		name:Eiffel Tower
+		desc:Produces 2600000000000000 atoms per second.
+		on tick:yield 2600000000000000 atoms
+		cost:150000000000000000000000 atoms
+		unlocked
+
+	*angelfalls
+		name:Angel Falls
+		desc:Produces 18000000000000000 atoms per second.
+		on tick:yield 18000000000000000 atoms
+		cost:1800000000000000000000000 atoms
+		unlocked
+
+	*mteverest
+		name:Mt. Everest
+		desc:Produces 212000000000000000 atoms per second.
+		on tick:yield 212000000000000000 atoms
+		cost:12600000000000000000000000 atoms
+		unlocked
+
+	*ganymed
+		name:Ganymed
+		desc:Produces 2500000000000000000 atoms per second.
+		on tick:yield 2500000000000000000 atoms
+		cost:88200000000000000000000000 atoms
+		unlocked
+
+	*nereid
+		name:Nereid
+		desc:Produces 30000000000000000000 atoms per second.
+		on tick:yield 30000000000000000000 atoms
+		cost:610000000000000000000000000 atoms
+		unlocked
+
+	*pluto
+		name:Pluto
+		desc:Produces 360000000000000000000 atoms per second.
+		on tick:yield 360000000000000000000 atoms
+		cost:4300000000000000000000000000 atoms
 		unlocked
 	
 Upgrades
