@@ -263,14 +263,42 @@ Buildings
 		on tick:yield 360000000000000000000 atoms
 		cost:4300000000000000000000000000 atoms
 		unlocked
+
+	*mars
+		name:Mars
+		desc:Produces 4300000000000000000000 atoms per second.
+		on tick:yield 4300000000000000000000 atoms
+		cost:30100000000000000000000000000 atoms
+		unlocked
+
+	*earth
+		name:Earth
+		desc:Produces 52000000000000000000000 atoms per second.
+		on tick:yield 52000000000000000000000 atoms
+		cost:210000000000000000000000000000 atoms
+		unlocked
+
+	*uranus
+		name:Uranus
+		desc:Produces 619000000000000000000000 atoms per second.
+		on tick:yield 619000000000000000000000 atoms
+		cost:150000000000000000000000000000 atoms
+		unlocked
+
+	*jupiter
+		name:Jupiter
+		desc:Produces 7400000000000000000000000 atoms per second.
+		on tick:yield 7400000000000000000000000 atoms
+		cost:1050000000000000000000000000000 atoms
+		unlocked
 	
 Upgrades
-    	*betterFoams1
-        	name:Better Quantum foams
-			desc:Doubles quantum foam power. Even light becomes matter for you!
-        	passive:multiply yield of foam by 2
-        	cost:50 atoms
-        	req:1 foam
+    *betterFoams1
+       	name:Better Quantum foams
+		desc:Doubles quantum foam power. Even light becomes matter for you!
+        passive:multiply yield of foam by 2
+        cost:50 atoms
+        req:1 foam
 
 	*betterNeutrinos1
 		name:Better neutrinos
