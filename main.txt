@@ -291,6 +291,20 @@ Buildings
 		on tick:yield 7400000000000000000000000 atoms
 		cost:1050000000000000000000000000000 atoms
 		unlocked
+
+	*proximacentauri
+		name:Proxima Centauri
+		desc:Produces 89000000000000000000000000 atoms per second.
+		on tick:yield 89000000000000000000000000 atoms
+		cost:7350000000000000000000000000000 atoms
+		unlocked
+
+	*alphacentauri
+		name:Alpha Centauri
+		desc:Produces 1000000000000000000000000000 atoms per second.
+		on tick:yield 1000000000000000000000000000 atoms
+		cost:51000000000000000000000000000000 atoms
+		unlocked
 	
 Upgrades
     *betterFoams1
