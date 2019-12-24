@@ -4,7 +4,7 @@ Let's make a game!
    desc:This is an Idle Game Maker experiment, you can learn more about IGM in here: https://orteil.dashnet.org/igm/
    created:21/11/2019
    updated:24/11/2019
-   version:1
+   version:1.1
  
 Settings
     building cost increase:120%
@@ -411,6 +411,27 @@ Upgrades
 		passive:multiply yield of clickme by 100
 		cost:800000 atoms
 		req:have betterClicking4
+
+	*betterClicking6
+		name:Button upgrade 6
+		desc:.
+		passive:multiply yield of clickme by 100
+		cost:100000000 atoms
+		req:have betterClicking5
+
+	*betterClicking7
+		name:Button upgrade 7
+		desc:..
+		passive:multiply yield of clickme by 100
+		cost:9000000000 atoms
+		req:have betterClicking6
+
+	*betterClicking8
+		name:Button upgrade 8
+		desc:... Just how many button upgrades there is?
+		passive:multiply yield of clickme by 100
+		cost:200000000000 atoms
+		req:have betterClicking7
 		
 Achievements
 	*ach1
