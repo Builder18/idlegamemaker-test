@@ -10,7 +10,7 @@ Settings
     building cost increase:120%
     building cost refund:25%
     stylesheet:stuff/bigBlue.css
-    spritesheet:icons, 48 by 48, https://i.postimg.cc/Hs8m9TqF/atomsheet-V2.png
+    spritesheet:icons, 48 by 48, https://i.postimg.cc/yY1G0cch/atomsheet-V2.png
  
 Layout
       use default
@@ -157,7 +157,7 @@ Buildings
 	*whitebloodcell
 		name:White blood cell
 		desc:Produces 65000000 atoms per second.
-		//icon:icons[1,3]
+		icon:icons[1,3]
 		on tick:yield 65000000 atoms
 		cost:1400000000000 atoms
 		unlocked
@@ -165,7 +165,7 @@ Buildings
 	*hair
 		name:Hair
 		desc:Produces 430000000 atoms per second.
-		//icon:icons[3,1]
+		icon:icons[3,1]
 		on tick:yield 430000000 atoms
 		cost:17000000000000 atoms
 		unlocked
@@ -173,7 +173,7 @@ Buildings
 	*coffeebean
 		name:Coffee bean
 		desc:Produces 2900000000 atoms per second.
-		//icon:icons[2,3]
+		icon:icons[2,3]
 		on tick:yield 2900000000 atoms
 		cost:210000000000000 atoms
 		unlocked
@@ -181,7 +181,7 @@ Buildings
 	*cup
 		name:Cup
 		desc:Produces 21000000000 atoms per second.
-		//icon:icons[3,2]
+		icon:icons[3,2]
 		on tick:yield 21000000000 atoms
 		cost:2600000000000000 atoms
 		unlocked
