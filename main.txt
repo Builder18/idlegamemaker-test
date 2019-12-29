@@ -10,7 +10,7 @@ Settings
     building cost increase:120%
     building cost refund:25%
     stylesheet:stuff/bigBlue.css
-    spritesheet:icons, 48 by 48, https://i.postimg.cc/yY1G0cch/atomsheet-V2.png
+    spritesheet:icons, 48 by 48, https://i.postimg.cc/cHF8rqhR/atomsheet-V2.png
  
 Layout
       use default
@@ -189,7 +189,7 @@ Buildings
 	*human
 		name:Human
 		desc:Produces 150000000000 atoms per second.
-		//icon:icons[3,3]
+		icon:icons[3,3]
 		on tick:yield 150000000000 atoms
 		cost:31000000000000000 atoms
 		unlocked
@@ -197,6 +197,7 @@ Buildings
 	*earthworm
 		name:Giant earthworm
 		desc:Produces 1100000000000 atoms per second.
+		icon:icons[4,0]
 		on tick:yield 1100000000000 atoms
 		cost:7100000000000000000 atoms
 		unlocked
@@ -204,6 +205,7 @@ Buildings
 	*oaktree
 		name:Oak tree
 		desc:Produces 7700000000000 atoms per second.
+		icon:icons[4,1]
 		on tick:yield 7700000000000 atoms
 		cost:85200000000000000000 atoms
 		unlocked
@@ -211,6 +213,7 @@ Buildings
 	*redwoodtree
 		name:Redwood tree
 		desc:Produces 53900000000000 atoms per second.
+		icon:icons[4,2]
 		on tick:yield 53900000000000 atoms
 		cost:1030000000000000000000 atoms
 		unlocked
